@@ -37,15 +37,73 @@
       </nav>
     </section>
 
-    <!-- Hero Section -->
     <section>
-      <div class="container hero-background">
-        <h1>O Desenvolvimento do Vale do Paraíba</h1>
-        <p>
-          Explore a história econômica e industrial dessa região estratégica do
-          Brasil.
-        </p>
-        <a href="#timeline" class="btn btn-light btn-lg">Ver Linha do Tempo</a>
+      <div
+        id="carouselExample"
+        class="carousel slide position-relative"
+        data-bs-ride="carousel"
+        style="height: 100vh; overflow: hidden"
+      >
+        <!-- Texto sobreposto -->
+        <div
+          class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center"
+          style="z-index: 2; background: rgba(0, 0, 0, 0.4)"
+        >
+          <h1 class="text-white fw-bold display-4">
+            O Desenvolvimento do Vale do Paraíba
+          </h1>
+          <p class="text-white lead mb-4">
+            Explore a história econômica e industrial dessa região estratégica
+            do Brasil.
+          </p>
+          <a href="#timeline" class="btn btn-light btn-lg"
+            >Ver Linha do Tempo</a
+          >
+        </div>
+
+        <!-- Carrossel de imagens -->
+        <div class="carousel-inner" style="z-index: 1">
+          <div class="carousel-item active">
+            <img
+              src="2011832.jpeg"
+              class="d-block w-100"
+              alt="Imagem 1"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="5-MAI_ARCO-DA-INOVACAO-1024x683.jpg"
+              class="d-block w-100"
+              alt="Imagem 2"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="2011832.jpeg"
+              class="d-block w-100"
+              alt="Imagem 3"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="arco-na-inovacao-Claudio-Vieira-PMSJC.webp"
+              class="d-block w-100"
+              alt="Imagem 3"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="cv__3537_claudio_vieira.jpg"
+              class="d-block w-100"
+              alt="Imagem 3"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+        </div>
       </div>
     </section>
 
@@ -70,7 +128,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="hero">
+    <footer>
       <div class="container">
         <p>
           &copy; 2025 Projeto Vale do Paraíba. Todos os direitos reservados.
