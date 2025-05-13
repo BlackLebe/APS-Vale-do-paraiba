@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vale do Paraíba - Desenvolvimento</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="azulzinho theme-dark">
+    <!-- Navbar -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="timeline.html">Linha do Tempo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <div
+        id="carouselExample"
+        class="carousel slide position-relative"
+        data-bs-ride="carousel"
+        style="height: 100vh; overflow: hidden"
+      >
+        <!-- Texto sobreposto -->
+        <div
+          class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center"
+          style="z-index: 2; background: rgba(0, 0, 0, 0.4)"
+        >
+          <h1 class="text-white fw-bold display-4">
+            O Desenvolvimento do Vale do Paraíba
+          </h1>
+          <p class="text-white lead mb-4">
+            Explore a história econômica e industrial dessa região estratégica
+            do Brasil.
+          </p>
+          <a href="#timeline" class="btn btn-light btn-lg"
+            >Ver Linha do Tempo</a
+          >
+        </div>
+
+        <!-- Carrossel de imagens -->
+        <div class="carousel-inner" style="z-index: 1">
+          <div class="carousel-item active">
+            <img
+              src="2011832.jpeg"
+              class="d-block w-100"
+              alt="Imagem 1"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="PanoramSJC.jpg"
+              class="d-block w-100"
+              alt="Imagem 2"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="2011832.jpeg"
+              class="d-block w-100"
+              alt="Imagem 3"
+              style="height: 100vh; object-fit: cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seções futuras -->
+    <section class="hero">
+      <div class="container my-5" id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>
+          Este site tem como objetivo apresentar de forma interativa a evolução
+          do Vale do Paraíba, desde seus primeiros ciclos econômicos até o atual
+          cenário tecnológico e industrial.
+        </p>
+      </div>
+
+      <div class="container my-5" id="contato">
+        <h2>Contato</h2>
+        <p>
+          Para mais informações, entre em contato pelo e-mail:
+          <a href="mailto:exemplo@email.com">exemplo@email.com</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2025 Projeto Vale do Paraíba. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
