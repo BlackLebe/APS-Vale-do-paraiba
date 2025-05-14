@@ -1,10 +1,4 @@
-.azulzinho {
-  background: #050d3e;
-}
-
 .hero {
-  background: #050d3e;
-  color: white;
   padding: 100px 20px;
   text-align: center;
 }
@@ -25,10 +19,6 @@ footer {
   margin-top: 4rem;
 }
 
-.navbar-custom {
-  background-color: #04092b;
-}
-
 .pt-100 {
   padding-top: 100px;
 }
@@ -43,7 +33,6 @@ footer {
   font-size: 16px;
 }
 .section-title h4 {
-  color: white;
   text-transform: capitalize;
   font-size: 40px;
   position: relative;
