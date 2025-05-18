@@ -83,7 +83,7 @@ ul.timeline-list li {
   display: table;
 }
 .timeline_content {
-  border: 2px solid #ff3636;
+  border: 2px solid #f1eee9;
   background-color: #fff;
 }
 ul.timeline-list li .timeline_content {
@@ -119,4 +119,11 @@ ul.timeline-list li:before {
   font-weight: 500;
   font-family: poppins;
   color: #ff3636;
+}
+.bg-pastel {
+  background: linear-gradient(to bottom, #f1eee9);
+}
+
+.bg-white {
+  background: linear-gradient(to bottom, white);
 }
