@@ -44,14 +44,14 @@ footer {
   content: "";
   width: 60px;
   height: 2px;
-  background-color: #ff8d1a;
+  background-color: #f7dfb5;
   bottom: 0;
   left: 50%;
   margin-left: -30px;
 }
 .section-title h4:after {
   position: absolute;
-  background-color: #ff8d1a;
+  background-color: #f7dfb5;
   content: "";
   width: 10px;
   height: 10px;
@@ -70,7 +70,7 @@ ul.timeline-list:before {
   content: "";
   width: 2px;
   height: 100%;
-  background-color: #ff8d1a;
+  background-color: #f7dfb5;
   left: 50%;
   top: 0;
   -webkit-transform: translateX(-50%);
@@ -82,7 +82,7 @@ ul.timeline-list li {
   display: table;
 }
 .timeline_content {
-  border: 2px solid #ff8d1a;
+  border: 2px solid #f7dfb5;
   background-color: #fff;
 }
 ul.timeline-list li .timeline_content {
@@ -100,14 +100,14 @@ ul.timeline-list li:nth-child(2n) .timeline_content {
   font-size: 22px;
   font-weight: 600;
   margin: 10px 0;
-  color: #ff8d1a;
+  color: #f7dfb5;
 }
 ul.timeline-list li:before {
   position: absolute;
   content: "";
   width: 25px;
   height: 25px;
-  background-color: #ff8d1a;
+  background-color: #f7dfb5;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -118,12 +118,19 @@ ul.timeline-list li:before {
   font-size: 18px;
   font-weight: 500;
   font-family: poppins;
-  color: #ff8d1a;
+  color: #f7dfb5;
 }
 .bg-pastel {
-  background: linear-gradient(to bottom, #f1eee9);
+  background: linear-gradient(to bottom, #f2eadc);
 }
 
 .bg-white {
   background: linear-gradient(to bottom, white);
+}
+#carouselExampleCaptions .carousel-item {
+  transition: none !important;
+}
+#carouselExampleCaptions .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
 }
