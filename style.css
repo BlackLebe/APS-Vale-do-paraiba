@@ -127,3 +127,7 @@ ul.timeline-list li:before {
 .bg-white {
   background: linear-gradient(to bottom, white);
 }
+#carouselExampleCaptions .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
